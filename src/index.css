@@ -27,7 +27,7 @@
 .imgContainer{
   display: flex;
   flex-direction: column;
-  max-height: 100vh;
+  max-height: 100%;
 }
 
 .bgImage {
@@ -111,7 +111,7 @@ footer button:hover{
   flex-direction: column;
   gap: 1rem;
   padding: 1rem;
-  overflow-y: scroll hidden;
+  overflow-y: scroll;
   height: 100%;
   width: 80%;
   max-width: 800px;
